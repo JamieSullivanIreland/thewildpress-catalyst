@@ -59,6 +59,7 @@ export default async function Home({ params }: Props) {
       <Slideshow />
 
       <div className="my-10">
+        <h1>Suppposed to be products here</h1>
         <ProductCardCarousel
           products={featuredProducts}
           showCart={false}
